@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leon Kolačko Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Čime se bavim</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">O meni</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Gdje radim</a></li>
+                </ul>
+            </nav>
+            
+            
+        </header>
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Zdravo, ja sam <strong>Leon Kolačko</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev wanna be</p>
+            <img src="img/pexels-tsunami-green-4816673.jpg" alt="" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Čime se bavim</h2>
+            
+            <div class="services">
+                <div class="service">
+                    <h3>Rad u Općoj bolnici Varaždin kao medicinski tehničar</h3>
+                    <p>Početak mog zaposlenja je bio 27.12.2016 na Odjelu internističkog hitnog prijama, gdje sam proveo 4 mjeseca, a kasnije jednim navratom
+                        došao u ispomoć na dva mjeseca zbog potreba službe. Nakon što mi se ukazala prilika za premještaj na Odjel transfuzijske medicine to sam prihvatio.
+                        U 11 mj. 2020 bio sam mobiliziran na covid odjel, gdje sam radio do 1. mj 2021 do svog povratka na Odjel za transfuzijsku medicinu.
+                        
+                        
+
+                    
+                    </p>
+                </div> <!-- / service -->
+                
+             
+            </div>
+            <a href="#work" class="btn">Mjesto zaposlenja</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">O meni</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            
+            <div class="about-me__body">
+                <p> Rođen sam u Varaždinu 25.10.1995, pohađao sam IV. osnovnu školu, potom Medicinsku školu Varaždin.
+                    Kroz svoje odrastanje dosta vremena sam provodio za računalom igrajući igrice gdje se pojavila prva zainteresiranost za informatiku.
+                    Taj hobi se zadržao do današnjeg dana samo u manjem obujmu vremena. Iako je moje prvo mjesto zaposlenja bilo u Hitnoj internističkoj ambulanti,
+                    više sam se pronašao na Odjelu transfuzijske medicine.
+                
+                    
+                    Obzirom na prirodu posla na tom odjelu susretao sam se s više informacijskih sustava, i raznim aparatima različitih proizvođača. Tu se produbila
+                    prijašnja zainteresiranost za IT sektor i postao sam u jednu ruku "odjelni informatičar", od jednostavnih popravaka printera, postavljanja
+                    raspberry pi-a pomoću kojeg sam puštao informativne prezentacije za davaoce krvi pa do praćenja "hladnog lanca" pomoću
+                    informacijskog sustava umreženog s logerima na hladnjačama iz kojeg sam izvlačio podatke te ih spremao u svoju improviziranu bazu 
+                    podataka. Sve to je dovelo do ovog trenutka, gdje sam napravio svoju prvu web stranicu uz pomoć youtube tutoriala, i nadam se otvorio
+                put daljnjem napretku i učenju. </p>
+                <p></p>
+            </div>
+            
+            <img src="img/pexels-pixabay-62289.jpg" alt="" class="about-me__img">
+         </section>
+
+         <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">Gdje radim</h2>
+            <p class="section__subtitle"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/interna.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/12201211.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/patologija.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/klinički.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/trijaža.jpg" alt="" class="portfolio__img">
+                </a>
+                
+        
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/obv (1).jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+    
+        </section>
+
+         
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:leonkolacko@gmail.com" class="footer__link">leonkolacko@gmail.com</a>
+        <ul class="social-list">
+            
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://facebook.com/leon.kolacko.73/">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/lkolacko">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+        
+    <script src="index.js"></script>
+    </body>
+</html>
